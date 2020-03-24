@@ -21,9 +21,10 @@ class MaterialDashboardAsset extends BaseMaterialAsset
 
     public $js = [
         'js/core/popper.min.js',
-        'js/core/jquery.min.js',
+        //'js/core/jquery.min.js',
         'js/core/bootstrap-material-design.min.js',
         'js/plugins/arrive.min.js',
+        'js/plugins/moment.min.js',
         'js/plugins/bootstrap-datetimepicker.min.js',
         'js/plugins/bootstrap-notify.js',
         'js/plugins/bootstrap-selectpicker.js',
@@ -36,7 +37,6 @@ class MaterialDashboardAsset extends BaseMaterialAsset
         'js/plugins/jquery.tagsinput.js',
         'js/plugins/jquery.validate.min.js',
         'js/plugins/jquery-jvectormap.js',
-        'js/plugins/moment.min.js',
         'js/plugins/nouislider.min.js',
         'js/plugins/perfect-scrollbar.jquery.min.js',
         'js/plugins/sweetalert2.js',
